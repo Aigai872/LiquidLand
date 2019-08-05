@@ -1,0 +1,155 @@
+
+<!-- saved from url=(0022)http://stormdonate.ru/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>StormMc - Покупка доната на сервере Майнкрафт</title>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="shortcut icon" href="http://stormdonate.ru/styles/images/favicon.ico" type="image/x-icon">
+      <link href="./StormMc - Покупка доната на сервере Майнкрафт_files/bootstrap.min.css" rel="stylesheet">
+      <link href="./StormMc - Покупка доната на сервере Майнкрафт_files/site.min.css" rel="stylesheet">
+      <link href="./StormMc - Покупка доната на сервере Майнкрафт_files/style.css" rel="stylesheet">
+      <link rel="stylesheet" href="./StormMc - Покупка доната на сервере Майнкрафт_files/font-awesome.css">
+      <script type="text/javascript" src="./StormMc - Покупка доната на сервере Майнкрафт_files/jquery-1.11.3.js"></script>
+      <script type="text/javascript" src="./StormMc - Покупка доната на сервере Майнкрафт_files/jquery-ui-1.10.4.custom.js"></script>
+      <link href="./StormMc - Покупка доната на сервере Майнкрафт_files/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+      <script src="./StormMc - Покупка доната на сервере Майнкрафт_files/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+   </head>
+   <body>
+
+      
+      <nav class="navbar navbar-toggleable-md navbar-light bg-primary">
+         <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="http://stormdonate.ru/"><i class="fa fa-cube"></i> StormMc</a>
+            <div class="collapse navbar-collapse" id="navbarColor01">
+               <ul class="navbar-nav mr-auto">
+                  <li class="nav-item"><a href="http://stormdonate.ru/" class="nav-link"><i class=""></i> </a></li>
+                  <li class="nav-item"><a href="http://stormdonate.ru/" class="nav-link"><i class="fa fa-home"></i> Главная</a></li>
+				  <li class="nav-item"><a href="http://stormdonate.ru/buy.php" class="nav-link"><i class="fa fa-money"></i> Как купить донат?</a></li>
+				  <li class="nav-item"><a href="http://stormdonate.ru/rules.php" class="nav-link"><i class="fa fa-pencil"></i> Правила</a></li>
+				  <li class="nav-item"><a href="http://stormdonate.ru/donate.php" class="nav-link"><i class="fa fa-database"></i> Описание привилегий</a></li>
+				  <li class="nav-item"><a href="https://vk.me/Storm_M_c" class="nav-link"><i class="fa fa-send"></i> Контакты</a></li>
+               </ul>
+               <span class="navbar-text">
+               <span class="badge badge-danger">Онлайн: <b id="online">0</b></span> <span class="badge badge-primary" onclick="ipsend()" onselect="ipsend()">IP: StormMc.ru</span>
+               </span>
+            </div>
+         </div>
+      </nav>
+      <br>
+      <div class="container">
+<center>
+
+<img src="./StormMc - Покупка доната на сервере Майнкрафт_files/banner-min.png" class="img-fluid">
+</center>
+<br>
+<div>
+<div>
+<div class="card card-body">
+<div class="row">
+<div class="col-md-6">
+<ul class="nav nav-tabs nav-fill" style="margin-bottom: 10px">
+							<li role="presentation" class="nav-item"><a href="http://stormdonate.ru/#1" role="tab" class="nav-link active" data-toggle="tab" style="color: black;">Выживание #1</a></li><li role="presentation" class="nav-item"><a href="http://stormdonate.ru/#2" role="tab" class="nav-link" data-toggle="tab" style="color: black;">Выживание #2</a></li>
+						</ul>
+						<!-- <div class="card" style="border-top-left-radius: 0px;border-top-right-radius: 0px;">
+						<div class="card-block"> -->
+						<div class="tab-content">
+							<div role="tabpanel" class="tab-pane active" id="1"><form action="http://stormdonate.ru/" method="post" id="phpmc"><input type="hidden" name="srv_id" class="input-srv_id" value="1"><div class="alert alert-dismissible alert-info">
+				  Вы выбрали сервер: Выживание #1
+				</div><div class="form-group has-feedback"><label for="nick" class="control-label">Введите ваш ник:</label><input type="text" class="input-nick form-control" name="nickname" id="nickname" placeholder="Введите ник"></div><div class="form-group"><label for="group" class="control-label">Выберите товар:</label><select id="group" name="group" class="select-group form-control"><option selected="" disabled="">Выберите товар</option><optgroup label="Привилегии"><option data-price="1" data-id="1" value="1">Вип - 1 рублей.</option><option data-price="10" data-id="2" value="2">Премиум - 10 рублей.</option><option data-price="15" data-id="3" value="3">Креатив - 15 рублей.</option><option data-price="20" data-id="4" value="4">Модер - 20 рублей.</option><option data-price="25" data-id="5" value="5">Админ - 25 рублей.</option><option data-price="30" data-id="6" value="6">Элита - 30 рублей.</option><option data-price="35" data-id="7" value="7">Гл.Админ - 35 рублей.</option><option data-price="40" data-id="8" value="8">Король - 40 рублей.</option><option data-price="45" data-id="9" value="9">Босс - 45 рублей.</option><option data-price="50" data-id="10" value="10">Создатель - 50 рублей.</option><option data-price="60" data-id="11" value="11">Титан - 60 рублей.</option><option data-price="30" data-id="12" value="12">Оператор - 30 рублей.</option><option data-price="40" data-id="13" value="13">Хелпер - 40 рублей.</option><option data-price="55" data-id="14" value="14">Анти-Грифер - 55 рублей.</option><option data-price="59" data-id="15" value="15">Консоль ☾Осталось 4 ШТ☽ - 59 рублей.</option><option data-price="89" data-id="16" value="16">Царь - 89 рублей.</option><option data-price="99" data-id="17" value="17">Владелец - 99 рублей.</option><option data-price="123" data-id="19" value="19">ЗВЕЗДА + ОП - 123 рублей.</option><option data-price="149" data-id="20" value="20">Управляющий + Консоль + ОП + ЗВЕЗДА - 149 рублей.</option><option data-price="699" data-id="21" value="21">OP - АДМИНИСТРАТОР ПРОЕКТА + RCON + КОНСОЛЬ + ЗВЕЗДА + ОП - 699 рублей.</option></optgroup><optgroup label="Прочее"><option data-price="35" data-id="22" value="22">Разбан - 35 рублей.</option></optgroup><optgroup label="Кейсы"><option data-price="10" data-id="43" value="43">5 Клчей - 10 рублей.</option><option data-price="15" data-id="44" value="44">10 Клчей - 15 рублей.</option><option data-price="25" data-id="45" value="45">50 Клчей - 25 рублей.</option><option data-price="50" data-id="46" value="46">100 Клчей - 50 рублей.</option><option data-price="100" data-id="47" value="47">1000 Клчей - 100 рублей.</option></optgroup></select></div><div class="vk_id"></div><button type="submit" name="buy" id="buy" class="submit buy_btn btn btn-success btn-block" disabled="">Введите ник и выберите привилегию</button></form></div><div role="tabpanel" class="tab-pane " id="2"><form action="http://stormdonate.ru/" method="post" id="phpmc"><input type="hidden" name="srv_id" class="input-srv_id" value="2"><div class="alert alert-dismissible alert-info">
+				  Вы выбрали сервер: Выживание #2
+				</div><div class="form-group has-feedback"><label for="nick" class="control-label">Введите ваш ник:</label><input type="text" class="input-nick form-control" name="nickname" id="nickname" placeholder="Введите ник"></div><div class="form-group"><label for="group" class="control-label">Выберите товар:</label><select id="group" name="group" class="select-group form-control"><option selected="" disabled="">Выберите товар</option><optgroup label="Привилегии"><option data-price="1" data-id="23" value="23">Вип - 1 рублей.</option><option data-price="10" data-id="24" value="24">Премиум - 10 рублей.</option><option data-price="15" data-id="25" value="25">Креатив - 15 рублей.</option><option data-price="20" data-id="26" value="26">Модер - 20 рублей.</option><option data-price="25" data-id="27" value="27">Админ - 25 рублей.</option><option data-price="30" data-id="28" value="28">Элита - 30 рублей.</option><option data-price="35" data-id="29" value="29">Гл.Админ - 35 рублей.</option><option data-price="40" data-id="30" value="30">Король - 40 рублей.</option><option data-price="45" data-id="31" value="31">Босс - 45 рублей.</option><option data-price="50" data-id="32" value="32">Создатель - 50 рублей.</option><option data-price="60" data-id="33" value="33">Титан - 60 рублей.</option><option data-price="30" data-id="34" value="34">Оператор - 30 рублей.</option><option data-price="40" data-id="35" value="35">Хелпер - 40 рублей.</option><option data-price="55" data-id="36" value="36">Анти-Грифер - 55 рублей.</option><option data-price="59" data-id="37" value="37">Консоль ☾Осталось 4 ШТ☽ - 59 рублей.</option><option data-price="89" data-id="38" value="38">Царь - 89 рублей.</option><option data-price="99" data-id="39" value="39">Владелец - 99 рублей.</option><option data-price="123" data-id="40" value="40">ЗВЕЗДА + ОП - 123 рублей.</option><option data-price="149" data-id="41" value="41">Управляющий + Консоль + ОП + ЗВЕЗДА - 149 рублей.</option><option data-price="699" data-id="42" value="42">OP - АДМИНИСТРАТОР ПРОЕКТА + RCON + КОНСОЛЬ + ЗВЕЗДА + ОП - 699 рублей.</option></optgroup><optgroup label="Кейсы"><option data-price="10" data-id="48" value="48">5 Клчей - 10 рублей.</option><option data-price="15" data-id="49" value="49">10 Клчей - 15 рублей.</option><option data-price="25" data-id="50" value="50">50 Клчей - 25 рублей.</option><option data-price="50" data-id="51" value="51">100 Клчей - 50 рублей.</option><option data-price="100" data-id="52" value="52">1000 Клчей - 100 рублей.</option></optgroup><optgroup label="Прочее"><option data-price="35" data-id="53" value="53">Разбан - 35 рублей.</option></optgroup></select></div><div class="vk_id"></div><button type="submit" name="buy" id="buy" class="submit buy_btn btn btn-success btn-block" disabled="">Введите ник и выберите привилегию</button></form></div>
+					</div>
+</div>
+
+
+<div class="col-md-6">
+                     <center>
+                        <div class="alert alert-gold">
+                           <h2>КУПИТЕ ДОНАТ СО СКИДКОЙ 85%<br><small>УПРАВЛЯЮЩИЙ + /op всего за <b>149</b> рублей</small></h2>
+                        </div>
+                        <p class="text-center"><b>Осталось до завершения акции:</b></p>
+                        <div class="row">
+                           <div class="col-md-4">
+                              <div class="card">
+                                 <div class="card-block">
+                                    <h5 class="second text-danger">00</h5>
+                                    Часов
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="card">
+                                 <div class="card-block">
+                                    <h5 class="third text-danger">00</h5>
+                                    Минут
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="card">
+                                 <div class="card-block">
+                                    <h5 class="four text-danger">00</h5>
+                                    Секунд
+                                 </div>
+                              </div>
+                           </div>
+                        </div><br>
+                        <div class="alert alert-danger" style="font-size: 17px;">
+                           <!--<div class="flash animated infinite">СЧАСЛИВЫХ КЕЙСОВ ОСТАЛОСЬ: <b style="color:yellow;">78</b> ШТ.</div> -->
+                        </div>
+                     </center>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <br>
+               </div>
+            </div>
+         
+      
+      <div class="footer footer-text">
+         <small>Copyright © 2018 | Связь me@xakin.ovh</small>
+      </div>
+<script src="./StormMc - Покупка доната на сервере Майнкрафт_files/jquery-1.11.3.js"></script>
+      <script src="./StormMc - Покупка доната на сервере Майнкрафт_files/countdown.js"></script>
+
+         <script>
+         var date = new Date();
+var day = date.getDate() + 1;
+var month = date.getMonth() + 1 ;
+if(day >= 32) { day = day - 1 }
+$(".row").countdown("2018/" + month + "/" + day, function(event) {
+$('.second').text(event.strftime('%H'));
+$('.third').text(event.strftime('%M'));
+$('.four').text(event.strftime('%S'));
+});
+</script>
+         
+      
+      <script src="./StormMc - Покупка доната на сервере Майнкрафт_files/bootstrap.min(1).js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2MineWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <script src="./StormMc - Покупка доната на сервере Майнкрафт_files/script.js"></script>
+		<div id="vk_id_info" class="modal fade" role="dialog">
+		  <div class="modal-dialog">
+
+		  </div>
+		</div>
+      <script type="text/javascript">
+         $.post('/engine/ajax.php?type=stat/online',{},function(data){
+         $('#online').html(data);
+         });
+         $.post('/engine/ajax.php?type=stat/slots',{},function(data){
+         $('#slots').html(data);
+         });
+         $.post('/engine/ajax.php?type=donaters',{},function(data){
+         $('#donaters').html(data);
+         });
+      </script>
+   
+<img src="./StormMc - Покупка доната на сервере Майнкрафт_files/hit" style="position: absolute; top: -3000px;"></body></html>
